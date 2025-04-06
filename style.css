@@ -1,0 +1,87 @@
+* {
+  font-family: cursive;
+}
+#dream-img {
+  border-radius: 10% 15% 20% 25%;
+  border-image-repeat: tretch;
+}
+
+body {
+  width: 100%;
+  background-size: cover; /* Or you can use '100% 100%' */
+  background-position: center center; /* This will center the image */
+  background-repeat: no-repeat; /* Ensure the image is not repeated */
+  height: 100vh; /* Make the body take up the full height of the viewport */
+  margin: 0; /* Remove default margin */
+  background-attachment: fixed;
+  background-image: url(IT\ should\ have\ clouds\,\ stars\,\ school\ and\ pink\ -\ blue\ colour\ just\ like\ sweet\ dreams.\ But\ instead\ of\ sweet\ dreams\ it\ writes\ My\ dream\ school\ with\ cursive\ handwright.jpg)
+}
+
+
+svg {
+  opacity: 0.8;
+  scale: 4;
+}
+
+.first {
+  position: absolute;
+  top: 30%;
+  left: 20%;
+}
+
+.second {
+  position: absolute;
+  top: 26%;
+  left: 80%;
+  scale: 4.5;
+}
+
+.third {
+  position: absolute;
+  top: 70%;
+  left: 55%;
+  scale: 8;
+}
+
+.fourth {
+  position: absolute;
+  top: 90%;
+  left: 15%;
+  scale: 6.5;
+}
+
+#subject {
+  position: absolute; 
+  top: 20%;
+  font-size: 1.2rem;
+  left: 17%;
+  z-index: 10;
+  width: 250px;
+}
+
+#exams {
+  position: absolute; 
+  top: 15%;
+  font-size: 1.2rem;
+  left: 77%;
+  z-index: 10;
+  width: 250px;
+}
+
+#extracurricular-activites {
+  position: absolute;
+  width: 400px;
+  left: 50%;
+  top: 43%;
+  z-index: 10;
+  font-size: 1.4rem;
+}
+
+#school {
+  position: absolute;
+  width: 395px;
+  left: 8%;
+  top: 73%;
+  z-index: 10;
+  font-size: 1.2rem;
+}
